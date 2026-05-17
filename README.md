@@ -1,11 +1,45 @@
-<div align="center">
+# MIX-IMAGE ID Photo AutoPrompt
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A fast, no-backend prompt-generation web tool for Thai ID photo / student portrait workflows. Built with React, Vite, and Tailwind CSS.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **Fast one-page workflow** optimized for studio operators.
+- **Thai UI Labels** with a clean dark dashboard.
+- **Auto-generates comprehensive English prompts** covering Subject, Clothing, Hair, Background, Lighting, Composition, Expression, Quality, and Preservation Rules.
+- **Locked System** for "ชุด ร.ด." portrait to strict identity, insignia, and crop safety rules.
+- **Hair Regulation Selector** specifically designed for Thai military student haircuts (ร.ด.).
+- **QA Operator Checklist** to track delivery readiness.
+- **Local Storage History** to save your recent prompts.
+- **Copy & Export** generated packages easily.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Tech Stack
+- React (SPA, Vite)
+- TypeScript
+- Tailwind CSS
+- Lucide React (Icons)
+- Local Storage (No backend required)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Getting Started
 
-</div>
+1. **Install dependencies:**
+   \`\`\`bash
+   npm install
+   \`\`\`
+
+2. **Run the development server:**
+   \`\`\`bash
+   npm run dev
+   \`\`\`
+   Then open \`http://localhost:3000\` in your browser.
+
+3. **Build for production:**
+   \`\`\`bash
+   npm run build
+   \`\`\`
+
+## Presets Included
+- Thai "ชุด ร.ด." Portrait
+- Thai Student Portrait
+- Thai School Uniform Portrait
+- Job Application Portrait
+- Passport / ID Style Portrait
